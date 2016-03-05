@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SCSOFT.FNC.Encryption", "SCSOFT.FNC.Encryption\SCSOFT.FNC.Encryption.csproj", "{7274FA1C-600B-4A14-932B-06F1A5EFE15C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FNC", "FNC", "{438F571E-33FC-4B87-B770-4AC9DCEEA338}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Debug", "Debug", "{25396D85-F302-4DB6-8721-B39E39BFC22E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SCSOFT.WEB.Encryption", "SCSOFT.WEB.Encryption\SCSOFT.WEB.Encryption.csproj", "{1586CD71-DB93-46F4-A75B-A163EB73363F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7274FA1C-600B-4A14-932B-06F1A5EFE15C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7274FA1C-600B-4A14-932B-06F1A5EFE15C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7274FA1C-600B-4A14-932B-06F1A5EFE15C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7274FA1C-600B-4A14-932B-06F1A5EFE15C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1586CD71-DB93-46F4-A75B-A163EB73363F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1586CD71-DB93-46F4-A75B-A163EB73363F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1586CD71-DB93-46F4-A75B-A163EB73363F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1586CD71-DB93-46F4-A75B-A163EB73363F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7274FA1C-600B-4A14-932B-06F1A5EFE15C} = {438F571E-33FC-4B87-B770-4AC9DCEEA338}
+		{1586CD71-DB93-46F4-A75B-A163EB73363F} = {25396D85-F302-4DB6-8721-B39E39BFC22E}
+	EndGlobalSection
+EndGlobal
