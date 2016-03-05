@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿using System; 
 using System.Text;
 
 namespace SCSOFT.CONSOLE.Test
@@ -9,6 +7,8 @@ namespace SCSOFT.CONSOLE.Test
     {
         static void Main(string[] args)
         {
+            Encryption.RSACryp();
+            Console.ReadLine();
         }
     }
 }

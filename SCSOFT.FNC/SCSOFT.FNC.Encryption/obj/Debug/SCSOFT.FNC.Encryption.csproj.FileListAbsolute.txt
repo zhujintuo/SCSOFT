@@ -1,0 +1,5 @@
+E:\github\SCSOFT\SCSOFT.FNC\SCSOFT.FNC.Encryption\bin\Debug\SCSOFT.FNC.Encryption.dll
+E:\github\SCSOFT\SCSOFT.FNC\SCSOFT.FNC.Encryption\bin\Debug\SCSOFT.FNC.Encryption.pdb
+E:\github\SCSOFT\SCSOFT.FNC\SCSOFT.FNC.Encryption\obj\Debug\SCSOFT.FNC.Encryption.csprojResolveAssemblyReference.cache
+E:\github\SCSOFT\SCSOFT.FNC\SCSOFT.FNC.Encryption\obj\Debug\SCSOFT.FNC.Encryption.dll
+E:\github\SCSOFT\SCSOFT.FNC\SCSOFT.FNC.Encryption\obj\Debug\SCSOFT.FNC.Encryption.pdb
