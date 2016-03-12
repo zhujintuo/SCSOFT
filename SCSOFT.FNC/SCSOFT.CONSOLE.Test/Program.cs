@@ -7,7 +7,7 @@ namespace SCSOFT.CONSOLE.Test
     {
         static void Main(string[] args)
         {
-            Encryption.RSACryp();
+            Encryption.RSACryp2();
             Console.ReadLine();
         }
     }
