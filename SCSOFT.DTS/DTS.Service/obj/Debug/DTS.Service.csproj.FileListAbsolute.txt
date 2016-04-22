@@ -1,0 +1,8 @@
+E:\project\1_work\河南雪城软件服务平台\DTS\DTS\DTS.Service\bin\Debug\DTS.Service.exe
+E:\project\1_work\河南雪城软件服务平台\DTS\DTS\DTS.Service\bin\Debug\DTS.Service.pdb
+E:\project\1_work\河南雪城软件服务平台\DTS\DTS\DTS.Service\obj\Debug\DTS.Service.MainService.resources
+E:\project\1_work\河南雪城软件服务平台\DTS\DTS\DTS.Service\obj\Debug\DTS.Service.ProjectInstaller.resources
+E:\project\1_work\河南雪城软件服务平台\DTS\DTS\DTS.Service\obj\Debug\DTS.Service.RedoService.resources
+E:\project\1_work\河南雪城软件服务平台\DTS\DTS\DTS.Service\obj\Debug\DTS.Service.csproj.GenerateResource.Cache
+E:\project\1_work\河南雪城软件服务平台\DTS\DTS\DTS.Service\obj\Debug\DTS.Service.exe
+E:\project\1_work\河南雪城软件服务平台\DTS\DTS\DTS.Service\obj\Debug\DTS.Service.pdb
