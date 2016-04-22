@@ -44,14 +44,62 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="About.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="About.Designer.cs">
+      <DependentUpon>About.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLogin.Designer.cs">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMain.Designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Log\ExceptionLog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Log\ExceptionLog.Designer.cs">
+      <DependentUpon>ExceptionLog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Log\RedoLog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Log\RedoLog.Designer.cs">
+      <DependentUpon>RedoLog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Log\SystemLog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Log\SystemLog.Designer.cs">
+      <DependentUpon>SystemLog.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Settings\SystemSetting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Settings\SystemSetting.Designer.cs">
+      <DependentUpon>SystemSetting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Settings\TableSetting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Settings\TableSetting.Designer.cs">
+      <DependentUpon>TableSetting.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="frmLogin.resx">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -60,6 +108,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -76,6 +125,12 @@
       <Project>{8adc0fbd-7b44-4afe-8e8b-6b647233164a}</Project>
       <Name>DTS.Service</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="res\icon\datachange128.ico" />
+    <Content Include="res\icon\datachange72.ico" />
+    <Content Include="res\icon\dataconfiguration72.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

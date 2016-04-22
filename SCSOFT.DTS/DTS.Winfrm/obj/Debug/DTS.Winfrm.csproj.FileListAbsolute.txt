@@ -7,3 +7,14 @@ E:\project\1_work\河南雪城软件服务平台\DTS\DTS\DTS.Winfrm\obj\Debug\DT
 E:\project\1_work\河南雪城软件服务平台\DTS\DTS\DTS.Winfrm\obj\Debug\DTS.Winfrm.csproj.GenerateResource.Cache
 E:\project\1_work\河南雪城软件服务平台\DTS\DTS\DTS.Winfrm\obj\Debug\DTS.Winfrm.exe
 E:\project\1_work\河南雪城软件服务平台\DTS\DTS\DTS.Winfrm\obj\Debug\DTS.Winfrm.pdb
+E:\work\github\SCSOFT\SCSOFT.DTS\DTS.Winfrm\obj\Debug\DTS.Winfrm.exe
+E:\work\github\SCSOFT\SCSOFT.DTS\DTS.Winfrm\obj\Debug\DTS.Winfrm.pdb
+E:\work\github\SCSOFT\SCSOFT.DTS\DTS.Winfrm\bin\Debug\DTS.Winfrm.exe
+E:\work\github\SCSOFT\SCSOFT.DTS\DTS.Winfrm\bin\Debug\DTS.Winfrm.pdb
+E:\work\github\SCSOFT\SCSOFT.DTS\DTS.Winfrm\bin\Debug\DTS.Service.exe
+E:\work\github\SCSOFT\SCSOFT.DTS\DTS.Winfrm\bin\Debug\DTS.Service.pdb
+E:\work\github\SCSOFT\SCSOFT.DTS\DTS.Winfrm\obj\Debug\DTS.Winfrm.csprojResolveAssemblyReference.cache
+E:\work\github\SCSOFT\SCSOFT.DTS\DTS.Winfrm\obj\Debug\DTS.Winfrm.frmLogin.resources
+E:\work\github\SCSOFT\SCSOFT.DTS\DTS.Winfrm\obj\Debug\DTS.Winfrm.Properties.Resources.resources
+E:\work\github\SCSOFT\SCSOFT.DTS\DTS.Winfrm\obj\Debug\DTS.Winfrm.csproj.GenerateResource.Cache
+E:\work\github\SCSOFT\SCSOFT.DTS\DTS.Winfrm\obj\Debug\DTS.Winfrm.frmMain.resources
