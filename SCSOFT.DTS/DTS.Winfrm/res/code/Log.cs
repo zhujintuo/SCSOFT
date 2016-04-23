@@ -7,7 +7,12 @@ namespace DTS.Winfrm.res.code
 {
     public class Log
     {
-        public static void Write()
+        /// <summary>
+        /// 日志填写
+        /// </summary>
+        /// <param name="type"></param>
+        /// <param name="msg"></param>
+        public static void Write(logeType type, string msg)
         {
 
         }
