@@ -31,13 +31,16 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmMain));
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.tsmi_Setting = new System.Windows.Forms.ToolStripMenuItem();
-            this.tsmi_LogQuery = new System.Windows.Forms.ToolStripMenuItem();
-            this.tsmi_About = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmi_Table = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmi_System = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsmi_LogQuery = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmi_RedoLog = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmi_ExceptionLog = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmi_SystemLog = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsmi_About = new System.Windows.Forms.ToolStripMenuItem();
+            this.panel_Main = new System.Windows.Forms.Panel();
+            this.tsmi_Home = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsmi_Exit = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -45,9 +48,11 @@
             // 
             this.menuStrip1.BackColor = System.Drawing.SystemColors.Control;
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.tsmi_Home,
             this.tsmi_Setting,
             this.tsmi_LogQuery,
-            this.tsmi_About});
+            this.tsmi_About,
+            this.tsmi_Exit});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(608, 25);
@@ -63,23 +68,6 @@
             this.tsmi_Setting.Size = new System.Drawing.Size(59, 21);
             this.tsmi_Setting.Text = "设置(&S)";
             // 
-            // tsmi_LogQuery
-            // 
-            this.tsmi_LogQuery.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.tsmi_RedoLog,
-            this.tsmi_ExceptionLog,
-            this.tsmi_SystemLog});
-            this.tsmi_LogQuery.Name = "tsmi_LogQuery";
-            this.tsmi_LogQuery.Size = new System.Drawing.Size(82, 21);
-            this.tsmi_LogQuery.Text = "日志查询(&L)";
-            // 
-            // tsmi_About
-            // 
-            this.tsmi_About.Name = "tsmi_About";
-            this.tsmi_About.Size = new System.Drawing.Size(60, 21);
-            this.tsmi_About.Text = "关于(&A)";
-            this.tsmi_About.Click += new System.EventHandler(this.tsmi_About_Click);
-            // 
             // tsmi_Table
             // 
             this.tsmi_Table.Name = "tsmi_Table";
@@ -93,6 +81,16 @@
             this.tsmi_System.Size = new System.Drawing.Size(152, 22);
             this.tsmi_System.Text = "系统设置";
             this.tsmi_System.Click += new System.EventHandler(this.tsmi_System_Click);
+            // 
+            // tsmi_LogQuery
+            // 
+            this.tsmi_LogQuery.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.tsmi_RedoLog,
+            this.tsmi_ExceptionLog,
+            this.tsmi_SystemLog});
+            this.tsmi_LogQuery.Name = "tsmi_LogQuery";
+            this.tsmi_LogQuery.Size = new System.Drawing.Size(82, 21);
+            this.tsmi_LogQuery.Text = "日志查询(&L)";
             // 
             // tsmi_RedoLog
             // 
@@ -115,12 +113,42 @@
             this.tsmi_SystemLog.Text = "系统日志(&O)";
             this.tsmi_SystemLog.Click += new System.EventHandler(this.tsmi_SystemLog_Click);
             // 
+            // tsmi_About
+            // 
+            this.tsmi_About.Name = "tsmi_About";
+            this.tsmi_About.Size = new System.Drawing.Size(60, 21);
+            this.tsmi_About.Text = "关于(&A)";
+            this.tsmi_About.Click += new System.EventHandler(this.tsmi_About_Click);
+            // 
+            // panel_Main
+            // 
+            this.panel_Main.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel_Main.Location = new System.Drawing.Point(0, 25);
+            this.panel_Main.Name = "panel_Main";
+            this.panel_Main.Size = new System.Drawing.Size(608, 311);
+            this.panel_Main.TabIndex = 1;
+            // 
+            // tsmi_Home
+            // 
+            this.tsmi_Home.Name = "tsmi_Home";
+            this.tsmi_Home.Size = new System.Drawing.Size(61, 21);
+            this.tsmi_Home.Text = "首页(&H)";
+            this.tsmi_Home.Click += new System.EventHandler(this.tsmi_Home_Click);
+            // 
+            // tsmi_Exit
+            // 
+            this.tsmi_Exit.Name = "tsmi_Exit";
+            this.tsmi_Exit.Size = new System.Drawing.Size(59, 21);
+            this.tsmi_Exit.Text = "退出(&T)";
+            this.tsmi_Exit.Click += new System.EventHandler(this.tsmi_Exit_Click);
+            // 
             // frmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(608, 336);
+            this.Controls.Add(this.panel_Main);
             this.Controls.Add(this.menuStrip1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
@@ -149,5 +177,8 @@
         private System.Windows.Forms.ToolStripMenuItem tsmi_RedoLog;
         private System.Windows.Forms.ToolStripMenuItem tsmi_ExceptionLog;
         private System.Windows.Forms.ToolStripMenuItem tsmi_SystemLog;
+        private System.Windows.Forms.Panel panel_Main;
+        private System.Windows.Forms.ToolStripMenuItem tsmi_Home;
+        private System.Windows.Forms.ToolStripMenuItem tsmi_Exit;
     }
 }

@@ -20,15 +20,24 @@ namespace DTS.Winfrm
         {
             frmLogin login = new frmLogin();
             login.ShowDialog();
-        }
+        } 
+        /// <summary>
+        /// 首页
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void tsmi_Home_Click(object sender, EventArgs e)
+        {
+
+        } 
         /// <summary>
         /// 表设置
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
         private void tsmi_Table_Click(object sender, EventArgs e)
-        {
-
+        { 
+            res.code.HelpClass.OpenForm(new Settings.TableSetting(), panel_Main);
         }
         /// <summary>
         /// 系统设置
@@ -72,6 +81,15 @@ namespace DTS.Winfrm
         /// <param name="sender"></param>
         /// <param name="e"></param>
         private void tsmi_About_Click(object sender, EventArgs e)
+        {
+
+        }
+        /// <summary>
+        /// 退出
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void tsmi_Exit_Click(object sender, EventArgs e)
         {
 
         }
