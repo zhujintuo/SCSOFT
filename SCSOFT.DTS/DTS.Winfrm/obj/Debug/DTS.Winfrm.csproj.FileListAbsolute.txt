@@ -17,5 +17,5 @@ E:\work\github\SCSOFT\SCSOFT.DTS\DTS.Winfrm\obj\Debug\DTS.Winfrm.Properties.Reso
 E:\work\github\SCSOFT\SCSOFT.DTS\DTS.Winfrm\obj\Debug\DTS.Winfrm.csproj.GenerateResource.Cache
 E:\work\github\SCSOFT\SCSOFT.DTS\DTS.Winfrm\obj\Debug\DTS.Winfrm.frmMain.resources
 E:\work\github\SCSOFT\SCSOFT.DTS\DTS.Winfrm\bin\Debug\DTS.Winfrm.exe.config
-E:\work\github\SCSOFT\SCSOFT.DTS\DTS.Winfrm\bin\Debug\System.Data.SQLite.xml
 E:\work\github\SCSOFT\SCSOFT.DTS\DTS.Winfrm\obj\Debug\DTS.Winfrm.Settings.TableSetting.resources
+E:\work\github\SCSOFT\SCSOFT.DTS\DTS.Winfrm\bin\Debug\System.Data.SQLite.dll

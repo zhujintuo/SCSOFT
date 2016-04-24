@@ -8,7 +8,6 @@ E:\project\1_work\河南雪城软件服务平台\DTS\DTS\DTS.Service\obj\Debug\D
 E:\project\1_work\河南雪城软件服务平台\DTS\DTS\DTS.Service\obj\Debug\DTS.Service.pdb
 E:\work\github\SCSOFT\SCSOFT.DTS\DTS.Service\bin\Debug\DTS.Service.exe
 E:\work\github\SCSOFT\SCSOFT.DTS\DTS.Service\bin\Debug\DTS.Service.pdb
-E:\work\github\SCSOFT\SCSOFT.DTS\DTS.Service\obj\Debug\DTS.Service.csprojResolveAssemblyReference.cache
 E:\work\github\SCSOFT\SCSOFT.DTS\DTS.Service\obj\Debug\DTS.Service.MainService.resources
 E:\work\github\SCSOFT\SCSOFT.DTS\DTS.Service\obj\Debug\DTS.Service.ProjectInstaller.resources
 E:\work\github\SCSOFT\SCSOFT.DTS\DTS.Service\obj\Debug\DTS.Service.RedoService.resources
