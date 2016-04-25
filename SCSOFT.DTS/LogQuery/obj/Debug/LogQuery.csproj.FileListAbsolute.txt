@@ -1,9 +1,0 @@
-E:\project\1_work\河南雪城软件服务平台\SCSOFT\SCSOFT.DTS\LogQuery\bin\Debug\LogQuery.exe
-E:\project\1_work\河南雪城软件服务平台\SCSOFT\SCSOFT.DTS\LogQuery\bin\Debug\LogQuery.pdb
-E:\project\1_work\河南雪城软件服务平台\SCSOFT\SCSOFT.DTS\LogQuery\obj\Debug\LogQuery.csprojResolveAssemblyReference.cache
-E:\project\1_work\河南雪城软件服务平台\SCSOFT\SCSOFT.DTS\LogQuery\obj\Debug\LogQuery.Properties.Resources.resources
-E:\project\1_work\河南雪城软件服务平台\SCSOFT\SCSOFT.DTS\LogQuery\obj\Debug\LogQuery.csproj.GenerateResource.Cache
-E:\project\1_work\河南雪城软件服务平台\SCSOFT\SCSOFT.DTS\LogQuery\obj\Debug\LogQuery.exe
-E:\project\1_work\河南雪城软件服务平台\SCSOFT\SCSOFT.DTS\LogQuery\obj\Debug\LogQuery.pdb
-E:\project\1_work\河南雪城软件服务平台\SCSOFT\SCSOFT.DTS\LogQuery\obj\Debug\LogQuery.frmLogQuery.resources
-E:\project\1_work\河南雪城软件服务平台\SCSOFT\SCSOFT.DTS\LogQuery\bin\Debug\LogQuery.exe.config

@@ -1,0 +1,6 @@
+E:\work\github\SCSOFT\SCSOFT.DTS\ThreadTest\bin\Debug\ThreadTest.exe.config
+E:\work\github\SCSOFT\SCSOFT.DTS\ThreadTest\bin\Debug\ThreadTest.exe
+E:\work\github\SCSOFT\SCSOFT.DTS\ThreadTest\bin\Debug\ThreadTest.pdb
+E:\work\github\SCSOFT\SCSOFT.DTS\ThreadTest\obj\Debug\ThreadTest.csprojResolveAssemblyReference.cache
+E:\work\github\SCSOFT\SCSOFT.DTS\ThreadTest\obj\Debug\ThreadTest.exe
+E:\work\github\SCSOFT\SCSOFT.DTS\ThreadTest\obj\Debug\ThreadTest.pdb
