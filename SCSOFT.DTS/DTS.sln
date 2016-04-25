@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DTS.Service", "DTS.Service\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DTS.Web", "DTS.Web\DTS.Web.csproj", "{FB92986A-CA48-4B16-9077-AE62F545FF2F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadTest", "ThreadTest\ThreadTest.csproj", "{CCC883F1-B551-4B39-9D81-C25391D6A292}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{FB92986A-CA48-4B16-9077-AE62F545FF2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FB92986A-CA48-4B16-9077-AE62F545FF2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FB92986A-CA48-4B16-9077-AE62F545FF2F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCC883F1-B551-4B39-9D81-C25391D6A292}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCC883F1-B551-4B39-9D81-C25391D6A292}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCC883F1-B551-4B39-9D81-C25391D6A292}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCC883F1-B551-4B39-9D81-C25391D6A292}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
