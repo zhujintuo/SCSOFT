@@ -49,8 +49,8 @@ namespace LogQuery
                     foreach (DataRow row in ds.Tables[0].Rows)
                     {
                         if (tb_Content.Text.Contains(row["DGImn"].ToString()))
-                        {
-                            sb.AppendFormat("{0} {1} {2} \n", row["PsCode"].ToString(), row["DGICode"].ToString(), row["DGImn"].ToString());
+                        { 
+                            sb.AppendFormat("{0} {1} {2} \r\n", row["PsCode"].ToString(), row["DGICode"].ToString(), row["DGImn"].ToString());
                         }
                     }
                     tb_Exists.Text = sb.ToString();
@@ -68,7 +68,7 @@ namespace LogQuery
             OpenFileDialog fileDialog = new OpenFileDialog();
             fileDialog.Multiselect = true;
             fileDialog.Title = "请选择文件";
-            fileDialog.Filter = "TXT文件(*.txt)|*.txt";
+            fileDialog.Filter = "全部(*.*)|*.*";
             if (fileDialog.ShowDialog() == DialogResult.OK)
             {
                 string file = fileDialog.FileName;
