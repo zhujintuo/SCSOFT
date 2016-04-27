@@ -11,8 +11,11 @@ namespace ThreadTest
             //Thread.CurrentThread.Name = "System Thread";
             //Console.WriteLine(Thread.CurrentThread.Name + "'Status:" + Thread.CurrentThread.ThreadState + "'");
             //Console.ReadLine();
-            Alpha alpha = new Alpha();
-            alpha.Test();
+
+            //Alpha alpha = new Alpha();
+            //alpha.Test();
+
+            Test.TestMain(); 
             Console.WriteLine();
         }
     }
