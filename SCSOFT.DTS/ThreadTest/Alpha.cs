@@ -21,6 +21,7 @@ namespace ThreadTest
         {
             Console.WriteLine("Thead Start/Stop/Join Sample");
             Thread oThread = new Thread(new ThreadStart(this.Beta));
+            oThread.Priority = ThreadPriority.Normal;
             oThread.Start();
             while (!oThread.IsAlive)
             {
