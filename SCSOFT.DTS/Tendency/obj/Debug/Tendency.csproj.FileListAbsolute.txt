@@ -1,0 +1,5 @@
+E:\project\1_work\河南雪城软件服务平台\SCSOFT\SCSOFT.DTS\Tendency\bin\Tendency.dll.config
+E:\project\1_work\河南雪城软件服务平台\SCSOFT\SCSOFT.DTS\Tendency\bin\Tendency.dll
+E:\project\1_work\河南雪城软件服务平台\SCSOFT\SCSOFT.DTS\Tendency\bin\Tendency.pdb
+E:\project\1_work\河南雪城软件服务平台\SCSOFT\SCSOFT.DTS\Tendency\obj\Debug\Tendency.dll
+E:\project\1_work\河南雪城软件服务平台\SCSOFT\SCSOFT.DTS\Tendency\obj\Debug\Tendency.pdb

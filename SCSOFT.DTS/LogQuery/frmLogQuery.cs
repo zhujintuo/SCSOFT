@@ -24,24 +24,39 @@ namespace LogQuery
                 //    return;
                 //}
 
-                StringBuilder sb = new StringBuilder();
-                sb.AppendLine(@"select PsCode,DGICode,DGImn ");
-                sb.AppendLine(@"   from T_INFO_DGIINFO y");
-                sb.AppendLine(@"  where exists(select PsCode,DGICode ");
-                sb.AppendLine(@"                 from (select PSCode,DGICode");
-                sb.AppendLine(@"						 from T_INFO_DGIOUTPUTMAP x");
-                sb.AppendLine(@"						where 1=1");
-                sb.AppendLine(@"						  and exists(select 1 ");
-                sb.AppendLine(@"									   from V_Output ");
-                sb.AppendLine(@"									  where AttentiondegreeCode in (3,4,5)");
-                sb.AppendLine(@"										and PsCode=x.PSCode");
-                sb.AppendLine(@"										and outputcode=x.OutputCode");
-                sb.AppendLine(@"									  )");
-                sb.AppendLine(@"					   ) d");
-                sb.AppendLine(@"			    where d.PSCode=y.PsCode ");
-                sb.AppendLine(@"				  and d.DGICode=y.DGICode");
-                sb.AppendLine(@"			   )");
-
+                StringBuilder sb = new StringBuilder(); 
+                sb.AppendLine(@" select x.PsCode,x.OutputCode,x.DGICode,x.DGImn,y.PsName,y.outputname");
+                sb.AppendLine(@"   from (select m.PsCode,n.OutputCode,m.DGICode,m.DGImn");
+                sb.AppendLine(@"		   from (select PsCode,DGICode,DGImn ");
+                sb.AppendLine(@"				   from T_INFO_DGIINFO y");
+                sb.AppendLine(@"				  where exists(select PsCode,DGICode ");
+                sb.AppendLine(@"								 from (select PSCode,DGICode");
+                sb.AppendLine(@"										 from T_INFO_DGIOUTPUTMAP x");
+                sb.AppendLine(@"										where 1=1");
+                sb.AppendLine(@"										  and exists(select 1 ");
+                sb.AppendLine(@"													   from V_Output ");
+                sb.AppendLine(@"													  where AttentiondegreeCode in (3,4,5)");
+                sb.AppendLine(@"														and PsCode=x.PSCode");
+                sb.AppendLine(@"														and outputcode=x.OutputCode");
+                sb.AppendLine(@"													  )");
+                sb.AppendLine(@"									   ) d");
+                sb.AppendLine(@"								where d.PSCode=y.PsCode ");
+                sb.AppendLine(@"								  and d.DGICode=y.DGICode");
+                sb.AppendLine(@"							   )");
+                sb.AppendLine(@"				 ) m,");
+                sb.AppendLine(@"				(select PSCode,OutputCode,DGICode");
+                sb.AppendLine(@"				   from T_INFO_DGIOUTPUTMAP ");
+                sb.AppendLine(@"				  where DeleteFlag=0) n");
+                sb.AppendLine(@"		  where m.PsCode=n.PSCode");
+                sb.AppendLine(@"			and m.DGICode=n.DGICode) x");
+                sb.AppendLine(@"   left join (select PsCode,PsName,outputcode,outputname ");
+                sb.AppendLine(@"                from V_Output ");
+                sb.AppendLine(@"			   where IsMonitor=1");
+                sb.AppendLine(@"			     and psstatus=0");
+                sb.AppendLine(@"				 and ptstatus=0");
+                sb.AppendLine(@"			  ) y ");
+                sb.AppendLine(@"	 on x.PsCode=y.PsCode and x.OutputCode=y.outputcode"); 
+                 
                 DataSet ds = res.code.DbHelperSQL.Query(sb.ToString());
                 if (ds != null && ds.Tables.Count > 0 && ds.Tables[0].Rows.Count > 0)
                 {
@@ -50,7 +65,7 @@ namespace LogQuery
                     {
                         if (tb_Content.Text.Contains(row["DGImn"].ToString()))
                         { 
-                            sb.AppendFormat("{0} {1} {2} \r\n", row["PsCode"].ToString(), row["DGICode"].ToString(), row["DGImn"].ToString());
+                            sb.AppendFormat("{0} {1} {2} {3} {4}\r\n", row["PsCode"].ToString(), row["OutputCode"].ToString(), row["DGImn"].ToString(),row["PsName"].ToString(),row["outputname"].ToString());
                         }
                     }
                     tb_Exists.Text = sb.ToString();
