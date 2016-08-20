@@ -1,0 +1,8 @@
+E:\project\1_work\河南雪城软件服务平台\SCSOFT\SCSOFT.DTS\Test\bin\Debug\Test.exe
+E:\project\1_work\河南雪城软件服务平台\SCSOFT\SCSOFT.DTS\Test\bin\Debug\Test.pdb
+E:\project\1_work\河南雪城软件服务平台\SCSOFT\SCSOFT.DTS\Test\obj\Debug\Test.csprojResolveAssemblyReference.cache
+E:\project\1_work\河南雪城软件服务平台\SCSOFT\SCSOFT.DTS\Test\obj\Debug\Test.Form1.resources
+E:\project\1_work\河南雪城软件服务平台\SCSOFT\SCSOFT.DTS\Test\obj\Debug\Test.Properties.Resources.resources
+E:\project\1_work\河南雪城软件服务平台\SCSOFT\SCSOFT.DTS\Test\obj\Debug\Test.csproj.GenerateResource.Cache
+E:\project\1_work\河南雪城软件服务平台\SCSOFT\SCSOFT.DTS\Test\obj\Debug\Test.exe
+E:\project\1_work\河南雪城软件服务平台\SCSOFT\SCSOFT.DTS\Test\obj\Debug\Test.pdb
